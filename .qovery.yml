@@ -1,0 +1,15 @@
+---
+application:
+  name: "go-rest-fibre"
+  project: "test-test"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "test-db"
+  version: "11"
+routers:
+- name: "main-go-rest-fibre"
+  routes:
+  - application_name: "go-rest-fibre"
+    paths:
+    - "/*"
